@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
+using System.Resources;
+using System.Globalization;
 
 namespace iBibliaMergeTool
 {
@@ -15,6 +13,7 @@ namespace iBibliaMergeTool
   {
     private SQLiteConnection m_srcProject;
     private SQLiteConnection m_dstProject;
+    private ResourceSet resourceSet = MainFormStrings.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
 
     public MainForm()
     {
@@ -66,13 +65,13 @@ namespace iBibliaMergeTool
     {
       if (tbSrcProject.TextLength == 0)
       {
-        MessageBox.Show("Erro: primeiro escolha o projeto de origem!");
+        MessageBox.Show(resourceSet.GetString("ChooseASourceProject"));
         return;
       }
 
       if (tbFilter.TextLength == 0)
       {
-        MessageBox.Show("Erro: Preencha o campo filtro!");
+        MessageBox.Show(resourceSet.GetString("ChooseAFilter"));
         return;
       }
 
@@ -87,11 +86,11 @@ namespace iBibliaMergeTool
           lbRefs.Items.Add(reader["pare_ref"]);
 
         if (lbRefs.Items.Count == 0)
-          lbRefs.Items.Add("Seu filtro não selecionou nenhum versículo. Tente novamente.");
+          lbRefs.Items.Add(resourceSet.GetString("EmptyFilterResults"));
       }
       catch (Exception ex)
       {
-        MessageBox.Show("Ocorreu um erro durante o processo, seu filtro não parece válido: " + ex.Message);
+        MessageBox.Show(resourceSet.GetString("UnexpectedFilterError") + ex.Message);
         return;
       }
     }
@@ -122,7 +121,7 @@ namespace iBibliaMergeTool
         fields.Add("pare_comentarios = @pare_comentarios");
 
       if (fields.Count == 0)
-        throw new Exception("Selecione ao menos um campo para ser mesclado");
+        throw new Exception(resourceSet.GetString("ChooseAtLeatOneField"));
 
       string stmt = $"UPDATE pares SET { String.Join(", ", fields.ToArray()) } WHERE pare_id = @pare_id";
 
@@ -147,19 +146,19 @@ namespace iBibliaMergeTool
     {
       if (tbSrcProject.TextLength == 0)
       {
-        MessageBox.Show("Escolha o projeto de origem!");
+        MessageBox.Show(resourceSet.GetString("ChooseASourceProject"));
         return;
       }
 
       if (tbDstProject.TextLength == 0)
       {
-        MessageBox.Show("Escolha o projeto de destino!");
+        MessageBox.Show(resourceSet.GetString("ChooseADestinationProject"));
         return;
       }
 
       if (tbFilter.TextLength == 0)
       {
-        MessageBox.Show("Informe o filtro a ser utilizado!");
+        MessageBox.Show(resourceSet.GetString("ChooseAFilter"));
         return;
       }
 
@@ -184,7 +183,7 @@ namespace iBibliaMergeTool
           SQLiteDataReader reader = select.ExecuteReader();
           while (reader.Read())
           {
-            lbRefs.Items.Add($"copiando {reader["pare_ref"]}...");
+            lbRefs.Items.Add($"{resourceSet.GetString("Copying")} {reader["pare_ref"]}...");
 
             if (cbFieldSrcText.Checked)
               update.Parameters["@pare_texto_origem"].Value = reader["pare_texto_origem"];
@@ -201,13 +200,13 @@ namespace iBibliaMergeTool
             update.ExecuteNonQuery();
           }
           tra.Commit();
-          lbRefs.Items.Add("Mesclagem concluída com sucesso!");
-          MessageBox.Show("Mesclagem concluída com sucesso!");
+          lbRefs.Items.Add(resourceSet.GetString("MergeComplete"));
+          MessageBox.Show(resourceSet.GetString("MergeComplete"));
         }
         catch (Exception ex)
         {
           tra.Rollback();
-          MessageBox.Show("Ocorreu um erro durante o processo, mesclagem abortada: " + ex.Message);
+          MessageBox.Show(resourceSet.GetString("MergeError") + ex.Message);
         }
       }
     }
