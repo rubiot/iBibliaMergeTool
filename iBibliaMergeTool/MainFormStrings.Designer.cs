@@ -133,6 +133,600 @@ namespace iBibliaMergeTool {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1 Chronicles.
+        /// </summary>
+        internal static string S1Chronicles {
+            get {
+                return ResourceManager.GetString("S1Chronicles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Corinthians.
+        /// </summary>
+        internal static string S1Corinthians {
+            get {
+                return ResourceManager.GetString("S1Corinthians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 John.
+        /// </summary>
+        internal static string S1John {
+            get {
+                return ResourceManager.GetString("S1John", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Kings.
+        /// </summary>
+        internal static string S1Kings {
+            get {
+                return ResourceManager.GetString("S1Kings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Peter.
+        /// </summary>
+        internal static string S1Peter {
+            get {
+                return ResourceManager.GetString("S1Peter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Samuel.
+        /// </summary>
+        internal static string S1Samuel {
+            get {
+                return ResourceManager.GetString("S1Samuel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Thessalonians.
+        /// </summary>
+        internal static string S1Thessalonians {
+            get {
+                return ResourceManager.GetString("S1Thessalonians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Timothy.
+        /// </summary>
+        internal static string S1Timothy {
+            get {
+                return ResourceManager.GetString("S1Timothy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Chronicles.
+        /// </summary>
+        internal static string S2Chronicles {
+            get {
+                return ResourceManager.GetString("S2Chronicles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Corinthians.
+        /// </summary>
+        internal static string S2Corinthians {
+            get {
+                return ResourceManager.GetString("S2Corinthians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 John.
+        /// </summary>
+        internal static string S2John {
+            get {
+                return ResourceManager.GetString("S2John", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Kings.
+        /// </summary>
+        internal static string S2Kings {
+            get {
+                return ResourceManager.GetString("S2Kings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Peter.
+        /// </summary>
+        internal static string S2Peter {
+            get {
+                return ResourceManager.GetString("S2Peter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Samuel.
+        /// </summary>
+        internal static string S2Samuel {
+            get {
+                return ResourceManager.GetString("S2Samuel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Thessalonians.
+        /// </summary>
+        internal static string S2Thessalonians {
+            get {
+                return ResourceManager.GetString("S2Thessalonians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2 Timothy.
+        /// </summary>
+        internal static string S2Timothy {
+            get {
+                return ResourceManager.GetString("S2Timothy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3 John.
+        /// </summary>
+        internal static string S3John {
+            get {
+                return ResourceManager.GetString("S3John", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Acts.
+        /// </summary>
+        internal static string SActs {
+            get {
+                return ResourceManager.GetString("SActs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Amos.
+        /// </summary>
+        internal static string SAmos {
+            get {
+                return ResourceManager.GetString("SAmos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Colossians.
+        /// </summary>
+        internal static string SColossians {
+            get {
+                return ResourceManager.GetString("SColossians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Daniel.
+        /// </summary>
+        internal static string SDaniel {
+            get {
+                return ResourceManager.GetString("SDaniel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deuteronomy.
+        /// </summary>
+        internal static string SDeuteronomy {
+            get {
+                return ResourceManager.GetString("SDeuteronomy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ecclesiastes.
+        /// </summary>
+        internal static string SEcclesiastes {
+            get {
+                return ResourceManager.GetString("SEcclesiastes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ephesians.
+        /// </summary>
+        internal static string SEphesians {
+            get {
+                return ResourceManager.GetString("SEphesians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Esther.
+        /// </summary>
+        internal static string SEsther {
+            get {
+                return ResourceManager.GetString("SEsther", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exodus.
+        /// </summary>
+        internal static string SExodus {
+            get {
+                return ResourceManager.GetString("SExodus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ezekiel.
+        /// </summary>
+        internal static string SEzekiel {
+            get {
+                return ResourceManager.GetString("SEzekiel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ezra.
+        /// </summary>
+        internal static string SEzra {
+            get {
+                return ResourceManager.GetString("SEzra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Galatians.
+        /// </summary>
+        internal static string SGalatians {
+            get {
+                return ResourceManager.GetString("SGalatians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Genesis.
+        /// </summary>
+        internal static string SGenesis {
+            get {
+                return ResourceManager.GetString("SGenesis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Habakkuk.
+        /// </summary>
+        internal static string SHabakkuk {
+            get {
+                return ResourceManager.GetString("SHabakkuk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Haggai.
+        /// </summary>
+        internal static string SHaggai {
+            get {
+                return ResourceManager.GetString("SHaggai", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hebrews.
+        /// </summary>
+        internal static string SHebrew {
+            get {
+                return ResourceManager.GetString("SHebrew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hosea.
+        /// </summary>
+        internal static string SHosea {
+            get {
+                return ResourceManager.GetString("SHosea", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Isaiah.
+        /// </summary>
+        internal static string SIsaiah {
+            get {
+                return ResourceManager.GetString("SIsaiah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to James.
+        /// </summary>
+        internal static string SJames {
+            get {
+                return ResourceManager.GetString("SJames", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jeremiah.
+        /// </summary>
+        internal static string SJeremiah {
+            get {
+                return ResourceManager.GetString("SJeremiah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Job.
+        /// </summary>
+        internal static string SJob {
+            get {
+                return ResourceManager.GetString("SJob", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Joel.
+        /// </summary>
+        internal static string SJoel {
+            get {
+                return ResourceManager.GetString("SJoel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jonah.
+        /// </summary>
+        internal static string SJohah {
+            get {
+                return ResourceManager.GetString("SJohah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to John.
+        /// </summary>
+        internal static string SJohn {
+            get {
+                return ResourceManager.GetString("SJohn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Joshua.
+        /// </summary>
+        internal static string SJoshua {
+            get {
+                return ResourceManager.GetString("SJoshua", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jude.
+        /// </summary>
+        internal static string SJude {
+            get {
+                return ResourceManager.GetString("SJude", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Judges.
+        /// </summary>
+        internal static string SJudges {
+            get {
+                return ResourceManager.GetString("SJudges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lamentations.
+        /// </summary>
+        internal static string SLamentations {
+            get {
+                return ResourceManager.GetString("SLamentations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leviticus.
+        /// </summary>
+        internal static string SLeviticus {
+            get {
+                return ResourceManager.GetString("SLeviticus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Luke.
+        /// </summary>
+        internal static string SLuke {
+            get {
+                return ResourceManager.GetString("SLuke", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Malachi.
+        /// </summary>
+        internal static string SMalachi {
+            get {
+                return ResourceManager.GetString("SMalachi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mark.
+        /// </summary>
+        internal static string SMark {
+            get {
+                return ResourceManager.GetString("SMark", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Matthew.
+        /// </summary>
+        internal static string SMatthew {
+            get {
+                return ResourceManager.GetString("SMatthew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Micah.
+        /// </summary>
+        internal static string SMicah {
+            get {
+                return ResourceManager.GetString("SMicah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nahum.
+        /// </summary>
+        internal static string SNahum {
+            get {
+                return ResourceManager.GetString("SNahum", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nehemiah.
+        /// </summary>
+        internal static string SNehemiah {
+            get {
+                return ResourceManager.GetString("SNehemiah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Numbers.
+        /// </summary>
+        internal static string SNumbers {
+            get {
+                return ResourceManager.GetString("SNumbers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Obadiah.
+        /// </summary>
+        internal static string SObadiah {
+            get {
+                return ResourceManager.GetString("SObadiah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Philemon.
+        /// </summary>
+        internal static string SPhilemon {
+            get {
+                return ResourceManager.GetString("SPhilemon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Philippians.
+        /// </summary>
+        internal static string SPhilippians {
+            get {
+                return ResourceManager.GetString("SPhilippians", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proverbs.
+        /// </summary>
+        internal static string SProverbs {
+            get {
+                return ResourceManager.GetString("SProverbs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Psalms.
+        /// </summary>
+        internal static string SPsalms {
+            get {
+                return ResourceManager.GetString("SPsalms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Revelation.
+        /// </summary>
+        internal static string SRevelation {
+            get {
+                return ResourceManager.GetString("SRevelation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Romans.
+        /// </summary>
+        internal static string SRomans {
+            get {
+                return ResourceManager.GetString("SRomans", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ruth.
+        /// </summary>
+        internal static string SRuth {
+            get {
+                return ResourceManager.GetString("SRuth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Song of Solomon.
+        /// </summary>
+        internal static string SSongOfSolomon {
+            get {
+                return ResourceManager.GetString("SSongOfSolomon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Titus.
+        /// </summary>
+        internal static string STitus {
+            get {
+                return ResourceManager.GetString("STitus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zecariah.
+        /// </summary>
+        internal static string SZechariah {
+            get {
+                return ResourceManager.GetString("SZechariah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zephaniah.
+        /// </summary>
+        internal static string SZephaniah {
+            get {
+                return ResourceManager.GetString("SZephaniah", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unexpected error, you filter doesn&apos;t seem to be valid: .
         /// </summary>
         internal static string UnexpectedFilterError {

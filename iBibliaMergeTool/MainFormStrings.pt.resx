@@ -141,6 +141,204 @@
   <data name="MergeError" xml:space="preserve">
     <value>Ocorreu um erro durante o processo, mesclagem abortada: </value>
   </data>
+  <data name="S1Chronicles" xml:space="preserve">
+    <value>1 Crônicas</value>
+  </data>
+  <data name="S1Corinthians" xml:space="preserve">
+    <value>1 Coríntios</value>
+  </data>
+  <data name="S1John" xml:space="preserve">
+    <value>1 João</value>
+  </data>
+  <data name="S1Kings" xml:space="preserve">
+    <value>1 Reis</value>
+  </data>
+  <data name="S1Peter" xml:space="preserve">
+    <value>1 Pedro</value>
+  </data>
+  <data name="S1Samuel" xml:space="preserve">
+    <value>1 Samuel</value>
+  </data>
+  <data name="S1Thessalonians" xml:space="preserve">
+    <value>1 Tessalonicenses</value>
+  </data>
+  <data name="S1Timothy" xml:space="preserve">
+    <value>1 Timóteo</value>
+  </data>
+  <data name="S2Chronicles" xml:space="preserve">
+    <value>2 Crônicas</value>
+  </data>
+  <data name="S2Corinthians" xml:space="preserve">
+    <value>2 Coríntios</value>
+  </data>
+  <data name="S2John" xml:space="preserve">
+    <value>2 João</value>
+  </data>
+  <data name="S2Kings" xml:space="preserve">
+    <value>2 Reis</value>
+  </data>
+  <data name="S2Peter" xml:space="preserve">
+    <value>2 Pedro</value>
+  </data>
+  <data name="S2Samuel" xml:space="preserve">
+    <value>2 Samuel</value>
+  </data>
+  <data name="S2Thessalonians" xml:space="preserve">
+    <value>2 Tessalonicenses</value>
+  </data>
+  <data name="S2Timothy" xml:space="preserve">
+    <value>2 Timóteo</value>
+  </data>
+  <data name="S3John" xml:space="preserve">
+    <value>3 João</value>
+  </data>
+  <data name="SActs" xml:space="preserve">
+    <value>Atos</value>
+  </data>
+  <data name="SAmos" xml:space="preserve">
+    <value>Amós</value>
+  </data>
+  <data name="SColossians" xml:space="preserve">
+    <value>Colossenses</value>
+  </data>
+  <data name="SDaniel" xml:space="preserve">
+    <value>Daniel</value>
+  </data>
+  <data name="SDeuteronomy" xml:space="preserve">
+    <value>Deuteronômio</value>
+  </data>
+  <data name="SEcclesiastes" xml:space="preserve">
+    <value>Eclesiastes</value>
+  </data>
+  <data name="SEphesians" xml:space="preserve">
+    <value>Efésios</value>
+  </data>
+  <data name="SEsther" xml:space="preserve">
+    <value>Ester</value>
+  </data>
+  <data name="SExodus" xml:space="preserve">
+    <value>Êxodo</value>
+  </data>
+  <data name="SEzekiel" xml:space="preserve">
+    <value>Ezequiel</value>
+  </data>
+  <data name="SEzra" xml:space="preserve">
+    <value>Esdras</value>
+  </data>
+  <data name="SGalatians" xml:space="preserve">
+    <value>Gálatas</value>
+  </data>
+  <data name="SGenesis" xml:space="preserve">
+    <value>Gênesis</value>
+  </data>
+  <data name="SHabakkuk" xml:space="preserve">
+    <value>Habacuque</value>
+  </data>
+  <data name="SHaggai" xml:space="preserve">
+    <value>Ageu</value>
+  </data>
+  <data name="SHebrew" xml:space="preserve">
+    <value>Hebreus</value>
+  </data>
+  <data name="SHosea" xml:space="preserve">
+    <value>Oseias</value>
+  </data>
+  <data name="SIsaiah" xml:space="preserve">
+    <value>Isaías</value>
+  </data>
+  <data name="SJames" xml:space="preserve">
+    <value>Tiago</value>
+  </data>
+  <data name="SJeremiah" xml:space="preserve">
+    <value>Jeremias</value>
+  </data>
+  <data name="SJob" xml:space="preserve">
+    <value>Jó</value>
+  </data>
+  <data name="SJoel" xml:space="preserve">
+    <value>Joel</value>
+  </data>
+  <data name="SJohah" xml:space="preserve">
+    <value>Jonas</value>
+  </data>
+  <data name="SJohn" xml:space="preserve">
+    <value>João</value>
+  </data>
+  <data name="SJoshua" xml:space="preserve">
+    <value>Josué</value>
+  </data>
+  <data name="SJude" xml:space="preserve">
+    <value>Judas</value>
+  </data>
+  <data name="SJudges" xml:space="preserve">
+    <value>Juízes</value>
+  </data>
+  <data name="SLamentations" xml:space="preserve">
+    <value>Lamentações</value>
+  </data>
+  <data name="SLeviticus" xml:space="preserve">
+    <value>Levítico</value>
+  </data>
+  <data name="SLuke" xml:space="preserve">
+    <value>Lucas</value>
+  </data>
+  <data name="SMalachi" xml:space="preserve">
+    <value>Malaquias</value>
+  </data>
+  <data name="SMark" xml:space="preserve">
+    <value>Marcos</value>
+  </data>
+  <data name="SMatthew" xml:space="preserve">
+    <value>Mateus</value>
+  </data>
+  <data name="SMicah" xml:space="preserve">
+    <value>Miqueias</value>
+  </data>
+  <data name="SNahum" xml:space="preserve">
+    <value>Naum</value>
+  </data>
+  <data name="SNehemiah" xml:space="preserve">
+    <value>Neemias</value>
+  </data>
+  <data name="SNumbers" xml:space="preserve">
+    <value>Números</value>
+  </data>
+  <data name="SObadiah" xml:space="preserve">
+    <value>Obadias</value>
+  </data>
+  <data name="SPhilemon" xml:space="preserve">
+    <value>Filemom</value>
+  </data>
+  <data name="SPhilippians" xml:space="preserve">
+    <value>Filipenses</value>
+  </data>
+  <data name="SProverbs" xml:space="preserve">
+    <value>Provérbios</value>
+  </data>
+  <data name="SPsalms" xml:space="preserve">
+    <value>Salmos</value>
+  </data>
+  <data name="SRevelation" xml:space="preserve">
+    <value>Apocalipse</value>
+  </data>
+  <data name="SRomans" xml:space="preserve">
+    <value>Romanos</value>
+  </data>
+  <data name="SRuth" xml:space="preserve">
+    <value>Rute</value>
+  </data>
+  <data name="SSongOfSolomon" xml:space="preserve">
+    <value>Cantares</value>
+  </data>
+  <data name="STitus" xml:space="preserve">
+    <value>Tito</value>
+  </data>
+  <data name="SZechariah" xml:space="preserve">
+    <value>Zacarias</value>
+  </data>
+  <data name="SZephaniah" xml:space="preserve">
+    <value>Sofonias</value>
+  </data>
   <data name="UnexpectedFilterError" xml:space="preserve">
     <value>Ocorreu um erro durante o processo, seu filtro não parece válido: </value>
   </data>

@@ -134,6 +134,9 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;cbFieldStatus.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="&gt;&gt;cbFieldSrcText.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
@@ -183,14 +186,17 @@
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="cbFieldStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="cbFieldSrcText.Text" xml:space="preserve">
     <value>Source text</value>
   </data>
   <data name="&gt;&gt;cbFieldSrcText.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>688, 325</value>
   </data>
   <data name="&gt;&gt;tbDstProject.Name" xml:space="preserve">
     <value>tbDstProject</value>
@@ -219,6 +225,9 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="rbSimpleFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="btnOpenDstProject.Location" type="System.Drawing.Point, System.Drawing">
     <value>524, 32</value>
   </data>
@@ -233,6 +242,9 @@
   </data>
   <data name="&gt;&gt;rbSimpleFilter.Parent" xml:space="preserve">
     <value>gtFilterType</value>
+  </data>
+  <data name="tbSrcProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 10</value>
   </data>
   <data name="&gt;&gt;tbSrcProject.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -249,9 +261,6 @@
   <data name="btnOpenDstProject.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 19</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>524, 96</value>
-  </data>
   <data name="rbSimpleFilter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -261,11 +270,11 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Filter</value>
   </data>
+  <data name="&gt;&gt;tbDstProject.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="btnOpenSrcProject.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -273,8 +282,8 @@
   <data name="&gt;&gt;cbFieldComments.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cbFieldPairs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tbSrcProject.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="&gt;&gt;cbFieldPairs.Name" xml:space="preserve">
     <value>cbFieldPairs</value>
@@ -284,9 +293,6 @@
   </data>
   <data name="&gt;&gt;lbRefs.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="rbSimpleFilter.Text" xml:space="preserve">
-    <value>Simple (mask)</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -303,8 +309,8 @@
   <data name="&gt;&gt;btnMerge.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnOpenDstProject.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="gtFilterType.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;gtFilterType.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -326,9 +332,6 @@
   </data>
   <data name="&gt;&gt;gtFilterType.Name" xml:space="preserve">
     <value>gtFilterType</value>
-  </data>
-  <data name="tbSrcProject.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
   </data>
   <data name="rbAdvancedFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 17</value>
@@ -399,23 +402,23 @@
   <data name="&gt;&gt;btnPreview.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;cbFieldSrcText.Name" xml:space="preserve">
-    <value>cbFieldSrcText</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
-  <data name="tbDstProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 32</value>
-  </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="cbFieldStatus.Text" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="gtFilterType.Text" xml:space="preserve">
     <value>Filter type</value>
   </data>
   <data name="&gt;&gt;openProjectDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenSrcProject.Name" xml:space="preserve">
+    <value>btnOpenSrcProject</value>
   </data>
   <data name="cbFieldComments.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -426,14 +429,23 @@
   <data name="rbSimpleFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;cbFieldStatus.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cbFieldComments.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 96</value>
   </data>
   <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
     <value>112, 67</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Source project</value>
+  </data>
+  <data name="&gt;&gt;cbFieldDstText.Name" xml:space="preserve">
+    <value>cbFieldDstText</value>
   </data>
   <data name="&gt;&gt;btnOpenSrcProject.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -444,9 +456,6 @@
   <data name="cbFieldDstText.Text" xml:space="preserve">
     <value>Destination text</value>
   </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
-  </data>
   <data name="btnMerge.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -456,8 +465,8 @@
   <data name="openProjectDialog.Filter" xml:space="preserve">
     <value>Projetos do iBiblia|*.bib</value>
   </data>
-  <data name="cbFieldStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;cbFieldDstText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gtFilterType.Size" type="System.Drawing.Size, System.Drawing">
     <value>406, 42</value>
@@ -471,9 +480,6 @@
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;rbSimpleFilter.Name" xml:space="preserve">
-    <value>rbSimpleFilter</value>
-  </data>
   <data name="&gt;&gt;cbFieldPairs.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -486,17 +492,11 @@
   <data name="&gt;&gt;cbFieldDstText.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;cbFieldComments.Name" xml:space="preserve">
-    <value>cbFieldComments</value>
-  </data>
   <data name="&gt;&gt;lbRefs.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="rbAdvancedFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -509,6 +509,9 @@
   </data>
   <data name="&gt;&gt;btnMerge.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbAdvancedFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -546,8 +549,8 @@
   <data name="cbFieldSrcText.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 23</value>
   </data>
-  <data name="cbFieldStatus.Text" xml:space="preserve">
-    <value>Status</value>
+  <data name="rbSimpleFilter.Text" xml:space="preserve">
+    <value>Simple (mask)</value>
   </data>
   <data name="&gt;&gt;tbFilter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2849,20 +2852,23 @@
   <data name="cbFieldComments.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;btnOpenSrcProject.Name" xml:space="preserve">
-    <value>btnOpenSrcProject</value>
+  <data name="cbFieldStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;cbFieldComments.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="tbDstProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 32</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
   <data name="btnOpenSrcProject.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Source project</value>
+  <data name="&gt;&gt;cbFieldComments.Name" xml:space="preserve">
+    <value>cbFieldComments</value>
   </data>
   <data name="&gt;&gt;rbSimpleFilter.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2872,12 +2878,6 @@
   </data>
   <data name="btnMerge.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 23</value>
-  </data>
-  <data name="&gt;&gt;btnMerge.Name" xml:space="preserve">
-    <value>btnMerge</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 32</value>
   </data>
   <data name="&gt;&gt;btnMerge.Parent" xml:space="preserve">
     <value>$this</value>
@@ -2891,8 +2891,8 @@
   <data name="cbFieldStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
   </data>
-  <data name="&gt;&gt;tbDstProject.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;btnMerge.Name" xml:space="preserve">
+    <value>btnMerge</value>
   </data>
   <data name="cbFieldComments.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 110</value>
@@ -2906,17 +2906,17 @@
   <data name="btnOpenSrcProject.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 19</value>
   </data>
-  <data name="&gt;&gt;cbFieldDstText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;rbSimpleFilter.Name" xml:space="preserve">
+    <value>rbSimpleFilter</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;rbAdvancedFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 32</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>688, 325</value>
+  <data name="btnOpenDstProject.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="btnPreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -2951,8 +2951,8 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="tbSrcProject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 10</value>
+  <data name="&gt;&gt;cbFieldSrcText.Name" xml:space="preserve">
+    <value>cbFieldSrcText</value>
   </data>
   <data name="&gt;&gt;btnOpenDstProject.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2963,8 +2963,8 @@
   <data name="btnOpenSrcProject.Text" xml:space="preserve">
     <value>Open...</value>
   </data>
-  <data name="gtFilterType.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="cbFieldStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="gtFilterType.Location" type="System.Drawing.Point, System.Drawing">
     <value>112, 96</value>
@@ -2999,14 +2999,14 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="rbSimpleFilter.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnOpenSrcProject.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cbFieldDstText.Name" xml:space="preserve">
-    <value>cbFieldDstText</value>
+  <data name="cbFieldPairs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
